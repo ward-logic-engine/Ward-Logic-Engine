@@ -9,3 +9,8 @@ add_executable(WardLogicEngine
     src/main.cpp
     src/engine.cpp
 )
+add_executable(TestModule1
+    tests/test_module1.cpp
+    src/AIConsistencyModule.cpp
+)
+target_include_directories(TestModule1 PRIVATE include)
