@@ -1,3 +1,8 @@
+/*
+  Copyright (c) 2026 Prince
+  All rights reserved.
+  Unauthorized use, copying, or distribution is prohibited.
+*/
 #include "engine.h"
 #include <iostream>
 
