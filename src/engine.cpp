@@ -5,7 +5,12 @@
 */
 #include "engine.h"
 #include <iostream>
+#include "AIConsistencyModule.h"
 
+void Engine::initialize() {
+    consistencyModule.loadRules(...);
+    consistencyModule.loadReasoningPatterns(...);
+}
 Engine::Engine() : initialized(false) {}
 
 void Engine::initialize() {
